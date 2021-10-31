@@ -32,4 +32,4 @@ Their team wants to develop an algorithm to predict the low budget potentially p
 - **Load**- Created a connection to the database from the python environment and loaded in the final dataset.
 
 ## Results
-The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
+The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
