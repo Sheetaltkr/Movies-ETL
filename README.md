@@ -12,7 +12,7 @@ The purpose of this project is to create a refactorable ETL pipeline that will a
   -  [movies_metadata.csv](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/movies_metadata.csv) 
   -  [wikipedia-movies.json](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/wikipedia-movies.json)
                
- - Software: Python 3.8.3, Jupyter Notebook, Anaconda 3, pgAdmin 4
+ - Software: Python 3.8.3, Jupyter Notebook, Anaconda 3, PostgreSQL 12, pgAdmin 4
 
 ## Stages of the Pipeline
 
