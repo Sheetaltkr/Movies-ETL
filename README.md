@@ -4,7 +4,7 @@
 
 ### Purpose
 
-- Help Britta generate clean data sets for Amazing Prime hackathon organized to predict future popular movies low budget movies for better profit.
+- Help Britta generate clean data sets for Amazing Prime hackathon organized to predict future popular movies low budget movies for better business profit.
 
 - To develop an automated pipeline that takes in raw data, performs the appropriate transformations, and loads the data into existing tables. 
 
