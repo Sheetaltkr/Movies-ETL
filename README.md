@@ -19,7 +19,7 @@ Their team wants to develop an algorithm to predict the low budget potentially p
 - Data Sourced from [IMDB](https://developer.imdb.com/?ref=ft_ds), [Kaggle](https://www.kaggle.com/):
   -  ratings.csv
   -  [movies_metadata.csv](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/movies_metadata.zip) 
-  -  [wikipedia-movies.json](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/wikipedia-movies.json)
+  -  [wikipedia-movies.json](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/wikipedia-movies.json)
                
  - Software: Python 3.8.3, Jupyter Notebook, Anaconda 3, PostgreSQL 12, pgAdmin 4
 
