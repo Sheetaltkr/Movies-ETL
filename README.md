@@ -8,11 +8,11 @@ The purpose of this project is to create a refactorable ETL pipeline that will a
 
 ## Resources
 - Data Sourced from [IMDB](https://developer.imdb.com/?ref=ft_ds), [Kaggle](https://www.kaggle.com/):
-  -  [ratings.csv](https://github.com/agregorash/Movies-ETL/blob/main/Resources/.gitignore) 
-  -  [movies_metadata.csv](https://github.com/agregorash/Movies-ETL/blob/main/Resources/movies_metadata.csv) 
-  -  [wikipedia-movies.json](https://github.com/agregorash/Movies-ETL/blob/main/Resources/wikipedia-movies.json)
+  -  [ratings.csv](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/ratings.csv) 
+  -  [movies_metadata.csv](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/movies_metadata.csv) 
+  -  [wikipedia-movies.json](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/wikipedia-movies.json)
                
- - Software: Python 3.8.3, Jupyter Notebooks, Anaconda 3, pgAdmin 4
+ - Software: Python 3.8.3, Jupyter Notebook, Anaconda 3, pgAdmin 4
 
 ## Stages of the Pipeline
 
@@ -23,4 +23,4 @@ The purpose of this project is to create a refactorable ETL pipeline that will a
 -**Load**- Created a connection to the database from the python environment and loaded in the final dataset.
 
 ## Results
-The result of this project is a [single function](https://github.com/agregorash/Movies-ETL/blob/main/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
+The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
