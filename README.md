@@ -2,9 +2,18 @@
 
 ## Project Overview
 
-Amazing Prime, a video streaming company is sponsoring a hackathon, where participants are tasked with predicting which low budget movies being released will become the most popular.  In order to build the predictive models we must build an ETL pipeline for further analysis.
+### Purpose
 
-The purpose of this project is to create a refactorable ETL pipeline that will automate the processing of large datasets into a SQL database.
+- Help Britta generate clean data sets for Amazing Prime hackathon organized to predict future popular movies low budget movies for better profit.
+
+- To develop an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
+
+- Refactor the given code to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data, performs the ETL transformations and finally loads the clean transformed datasets to a PostgreSQL database.
+
+
+### Background
+Amazing Prime Video is a platform for streaming movies and TV shows on Amazing Prime the worlds largest online retailer. 
+Their team wants to develop an algorithm to predict the low budget potentially popular movies that are being released so that they can buy the streaming rights for best possible deal. For this Amazing Prime has decided to sponsor a hackathon  for local coding community in order to have participants predict the popular pictures by providing a clean dataset.
 
 ## Resources
 - Data Sourced from [IMDB](https://developer.imdb.com/?ref=ft_ds), [Kaggle](https://www.kaggle.com/):
