@@ -6,7 +6,7 @@
 
 - Help Britta generate clean data sets for Amazing Prime hackathon organized to predict future popular movies low budget movies for better business profit.
 
-- To develop an automated pipeline that takes in raw data, performs the appropriate transformations, and loads the data into existing tables. 
+- To develop an automated pipeline using python Pandas that takes in raw data in form of .csv and .json files, performs the appropriate transformations, and loads the data into existing SQL tables in PostgreSQL database. 
 
 - Refactor the given code to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data, performs the ETL transformations and finally loads the clean transformed datasets to a PostgreSQL database.
 
@@ -25,7 +25,7 @@ Their team wants to develop an algorithm to predict the low budget potentially p
 
 ## Stages of the Pipeline
 
-- **Extract**- Data is read into the python environment using Pandas from two differing formats; csv and json.  
+- **Extract**- Data is read into the python environment using Pandas from two : extract the Wikipedia and Kaggle data from their respective filesdiffering formats; csv and json.  
 
 - **Transform**- Data is transformed into a usable dataset that can be loaded into the database.  Data cleaning included assessing missing values, null values, handling corrupt data, and formatting.  Then data was filtered, formatted, classified into understandable categories, and finally merged.
 
