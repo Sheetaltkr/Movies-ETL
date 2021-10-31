@@ -6,7 +6,7 @@
 
 - Help Britta generate clean data sets for Amazing Prime hackathon organized to predict future popular movies low budget movies for better profit.
 
-- To develop an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. 
+- To develop an automated pipeline that takes in raw data, performs the appropriate transformations, and loads the data into existing tables. 
 
 - Refactor the given code to create one function that takes in the three files—Wikipedia data, Kaggle metadata, and the MovieLens rating data, performs the ETL transformations and finally loads the clean transformed datasets to a PostgreSQL database.
 
@@ -17,7 +17,7 @@ Their team wants to develop an algorithm to predict the low budget potentially p
 
 ## Resources
 - Data Sourced from [IMDB](https://developer.imdb.com/?ref=ft_ds), [Kaggle](https://www.kaggle.com/):
-  -  [ratings.csv](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/ratings.csv) 
+  -  ratings.csv
   -  [movies_metadata.csv](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/movies_metadata.csv) 
   -  [wikipedia-movies.json](https://github.com/Sheetaltkr/Movies-ETL/Challenge/Resources/wikipedia-movies.json)
                
