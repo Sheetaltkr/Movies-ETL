@@ -16,11 +16,11 @@ The purpose of this project is to create a refactorable ETL pipeline that will a
 
 ## Stages of the Pipeline
 
--**Extract**- Data is read into the python environment using Pandas from two differing formats; csv and json.  
+- **Extract**- Data is read into the python environment using Pandas from two differing formats; csv and json.  
 
--**Transform**- Data is transformed into a usable dataset that can be loaded into the database.  Data cleaning included assessing missing values, null values, handling corrupt data, and formatting.  Then data was filtered, formatted, classified into understandable categories, and finally merged.
+- **Transform**- Data is transformed into a usable dataset that can be loaded into the database.  Data cleaning included assessing missing values, null values, handling corrupt data, and formatting.  Then data was filtered, formatted, classified into understandable categories, and finally merged.
 
--**Load**- Created a connection to the database from the python environment and loaded in the final dataset.
+- **Load**- Created a connection to the database from the python environment and loaded in the final dataset.
 
 ## Results
 The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
