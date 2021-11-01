@@ -33,3 +33,9 @@ Their team wants to develop an algorithm to predict the low budget potentially p
 
 ## Results
 The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
+
+![movies table](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/movies_query.png)
+
+![ratings table_load](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/ratings_loadtime.png)
+
+![ratings table](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/ratings_query.png)
