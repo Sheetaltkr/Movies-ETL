@@ -23,19 +23,25 @@ Their team wants to develop an algorithm to predict the low budget potentially p
                
  - Software: Python 3.8.3, Jupyter Notebook, Anaconda 3, PostgreSQL 12, pgAdmin 4
 
-## Stages of the Pipeline
+## Stages of the ETL Pipeline
 
-- **Extract**- Data is read into the python environment using Pandas from two : extract the Wikipedia and Kaggle data from their respective filesdiffering formats; csv and json.  
+- **Extract**
+  In this process we read the data in raw form and make it available for cleaning and transformation. For the Hackathon we are using wikipedia-movies.json,movies_metadata.csv     and ratings.csv. The source data format is different and needs to be converted into a common format for the next step.
 
-- **Transform**- Data is transformed into a usable dataset that can be loaded into the database.  Data cleaning included assessing missing values, null values, handling corrupt data, and formatting.  Then data was filtered, formatted, classified into understandable categories, and finally merged.
+- **Transform**
+  Here the Data is transformed into a usable dataset that can be loaded into the database.  Data cleaning is performed which includes assessing the missing values, null values,   handling corrupt data, and formatting.  Then data is then  filtered, formatted, classified into understandable categories and finally merged. For our analysis we are merging     the movies data along with the Kaggle data by judiciously deciding on the best column values to keep among the 2 common columns from these datasets prior to merge. We then       merge the movies dataset with ratings dataset after converting the timestamp column values to standard format. 
 
-- **Load**- Created a connection to the database from the python environment and loaded in the final dataset.
+- **Load**
+  Once the data is transformed it is ready to be loaded into a database for analysis and reporting. We will be loading the dataset from python environment into PostgreSQL database in form of SQL tables.Post loading we check the count of movies table which 6,052 rows and the ratings table has 26,024,289 rows.
 
 ## Results
-The result of this project is a [single function](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
+The result of this project is a [ETL function](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/ETL_create_database.ipynb) that can be called to clean and transform any movie data from the given data sources and load it into SQL where further analyses can be performed.  
 
+#### Movies table row count in PostgreSQL 
 ![movies table](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/movies_query.png)
 
+#### Ratings table load time during load process from Python environment to PostgreSQL 
 ![ratings table_load](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/ratings_loadtime.png)
 
+#### Ratings table row count in PostgreSQL 
 ![ratings table](https://github.com/Sheetaltkr/Movies-ETL/blob/main/Challenge/Resources/ratings_query.png)
